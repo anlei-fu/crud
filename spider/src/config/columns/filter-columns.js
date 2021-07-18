@@ -1,0 +1,102 @@
+const FILTER_COLUMNS = [
+
+    {
+        title: "表",
+        description: "表",
+        format: "table",
+        field: "table",
+        show: true,
+        width: "160px",
+    },
+    {
+        title: "表字段",
+        description: "表字段",
+        format: "column",
+        field: "column",
+        show: true,
+        width: "100px",
+    },
+    {
+        title: "自定义WhereSql",
+        description: "自定义输出sql",
+        field: "customerSql",
+        width: "160px",
+    },
+    {
+        title: "自定义Where条件",
+        description: "自定义",
+        field: "customer",
+        show: true,
+        width: "160px",
+    },
+    {
+        title: "别名",
+        description: "别名",
+        field: "alias",
+        show: true,
+        width: "120px",
+    },
+    {
+        title: "标题",
+        description: "标题",
+        field: "label",
+        show: true,
+        width: "100px",
+    },
+    {
+        title: "java类型",
+        description: "java类型",
+        field: "javaType",
+        show: true,
+        width: "100px",
+    },
+    {
+        title: "控件类型",
+        description: "格式化类型",
+        field: "controlType",
+        show: true,
+        width: "120px",
+    },
+    {
+        title: "控件类型",
+        description: "格式化类型",
+        field: "controlPattern",
+        // show: true,
+        width: "100px",
+    },
+    {
+        title: "级联配置",
+        description: "级联配置",
+        field: "filterMappings",
+        // show: true,
+        width: "100px",
+    },
+    {
+        title: "默认展示",
+        description: "默认展示",
+        field: "defaultShow",
+        show: true,
+        width: "160px",
+    },
+    {
+        title: "宽度",
+        description: "宽度",
+        field: "width",
+        width: "160px",
+    },
+    {
+        title: "提示信息",
+        description: "提示信息",
+        field: "placeHolder",
+        width: "160px",
+    },
+    {
+        title: "描述",
+        description: "描述",
+        field: "description",
+        show: true,
+        width: "120px",
+    },
+]
+
+export default FILTER_COLUMNS
